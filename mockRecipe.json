@@ -1,0 +1,18 @@
+[
+  {
+    "id": "abc123",
+    "title": "French Omelette",
+    "photo": "https://example.com/spaghetti.jpg",
+    "describe": " A French omelette is known for its soft, tender texture and lack of browning on the outside. It’s simple but requires a bit of attention to achieve the perfect consistency. It’s ideal for a light yet satisfying breakfast.",
+    "ingredients": [
+      { "name": "Eggs", "amount": "2 pcs" },
+      { "name": "Butter", "amount": "15g" },
+      { "name": "Salt", "amount": "3g" }
+    ],
+    "instructions": "1. Crack the eggs into a small bowl. Add a pinch of salt and a bit of black pepper. Whisk the eggs with a fork or whisk until smooth and slightly foamy. \n2. Place a small non-stick skillet over medium heat and add the butter. Let the butter melt completely, being careful not to let it brown. \n3. Pour the beaten eggs into the skillet. Allow them to set slightly around the edges, then gently stir the eggs, folding them toward the center to keep the omelette soft and tender.",
+    "category": "Breakfast",
+    "time": 7,
+    "calories": 200,
+    "isFavorite": false
+  }
+]
