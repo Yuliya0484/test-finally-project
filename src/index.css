@@ -10,6 +10,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --light-beige: #faf3e0;
+  --darck-brown-65-: rgba(61, 34, 24, 0.65);
 }
 
 body {

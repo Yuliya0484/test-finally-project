@@ -1,7 +1,39 @@
+import css from "./NotFound.module.css";
+
 export default function NotFound() {
   return (
-    <div>
-      <p>Sorry,this recipe is not found!</p>
-    </div>
+    <section>
+      <div className={css.container}>
+        <div className={css.caption}>
+          <div className={css.hatCont}>
+            <div className={css.hat}></div>
+            <div className={css.lines}></div>
+            <div className={css.left}></div>
+            <div className={css.leftOpp}></div>
+            <div className={css.top}></div>
+          </div>
+          <div className={css.headText}>Page not found!</div>
+        </div>
+        <div className={css.head}>
+          <div className={css.panWrapper}>
+            <div className={css.center}>
+              <div className={css.subCenter}>
+                <div className={css.egg}>
+                  <div className={css.yolk}></div>
+                </div>
+              </div>
+            </div>
+            <div className={css.handle}></div>
+            <div className={css.handleSub}></div>
+          </div>
+        </div>
+      </div>
+      <p>
+        Back Home{" "}
+        <a href="/" className={css.backHome}>
+          click here
+        </a>
+      </p>
+    </section>
   );
 }

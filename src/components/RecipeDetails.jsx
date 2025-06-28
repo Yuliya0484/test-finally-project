@@ -1,6 +1,6 @@
 import AboutRecipe from "./AboutRecipe";
 import GeneralInfoRecipe from "./GeneralInfoRecipe";
-import RecipeIngredientsList from "./ResipeIngredientsList.jsx";
+import RecipeIngredientsList from "./ResipeIngredientsList";
 import PreparationRecipe from "./PreparationRecipe";
 
 export default function RecipeDetails({ mockRecipe: { title, thumb } }) {
