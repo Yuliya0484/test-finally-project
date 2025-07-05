@@ -1,4 +1,4 @@
-export default function AboutRecipe({ recipe: { description } }) {
+export default function AboutRecipe({ description }) {
   return (
     <div>
       <h3>About recipe</h3>

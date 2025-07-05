@@ -26,7 +26,7 @@ export default function RecipeViewPage() {
   }, [dispatch, id]);
 
   if (isLoading) return <Loader />;
-  if (error) return <NotFound />;
+  if (error || !recipe) return <NotFound />;
 
-  return recipe ? <RecipeDetails recipe={recipe} /> : null;
+  return <RecipeDetails recipe={recipe} />;
 }
