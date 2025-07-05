@@ -8,7 +8,7 @@ import {
 } from "../redux/recipes/operations";
 
 export default function GeneralInfoRecipe({
-  mockRecipe: { category, time, calories, id, isFavourite },
+  recipe: { category, time, calories, id, isFavourite },
 }) {
   const [loading, setLoading] = useState(false);
   // const navigate = useNavigate();

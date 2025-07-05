@@ -1,5 +1,3 @@
-import mockRecipe from "../../mockRecipe.json";
-
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
@@ -29,11 +27,6 @@ export default function RecipeViewPage() {
 
   if (isLoading) return <Loader />;
   if (error) return <NotFound />;
-  if (!recipe) return null;
 
-  return (
-    <>
-      <RecipeDetails mockRecipe={mockRecipe} />
-    </>
-  );
+  return recipe ? <RecipeDetails recipe={recipe} /> : null;
 }

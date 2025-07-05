@@ -1,4 +1,4 @@
-export default function PreparationRecipe({ mockRecipe: { instructions } }) {
+export default function PreparationRecipe({ recipe: { instructions } }) {
   return (
     <div>
       <h3>Preparation Steps:</h3>

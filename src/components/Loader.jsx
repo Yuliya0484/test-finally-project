@@ -1,3 +1,9 @@
+import css from "./Loader.module.css";
+
 export default function Loader() {
-  return <p>Wait a moment plese! Loading a recipe...</p>;
+  return (
+    <div className={css.backdrop}>
+      <div className={css.loader}></div>
+    </div>
+  );
 }

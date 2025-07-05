@@ -1,4 +1,4 @@
-export default function RecipeIngredientsList({ mockRecipe: { ingredients } }) {
+export default function RecipeIngredientsList({ recipe: { ingredients } }) {
   return (
     <div>
       <h3>Ingredients:</h3>

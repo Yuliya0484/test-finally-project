@@ -3,11 +3,14 @@ import GeneralInfoRecipe from "./GeneralInfoRecipe";
 import RecipeIngredientsList from "./ResipeIngredientsList";
 import PreparationRecipe from "./PreparationRecipe";
 
-export default function RecipeDetails({ mockRecipe: { title, thumb } }) {
+export default function RecipeDetails({ recipe }) {
+  if (!recipe) return <Loader />;
+
+  const { title, photo } = recipe;
   return (
     <div>
       <h2>{title}</h2>
-      <img src={thumb} alt={`Photo of ${title}`} />
+      <img src={photo} alt={`Photo of ${title}`} />
       <div>
         <div>
           <AboutRecipe />
